@@ -35,7 +35,7 @@ import static org.hamcrest.core.IsEqual.equalTo;
 import static org.junit.Assert.*;
 import static pl.tajchert.securetime.util.BytesUtil.hexToBytes;
 
-final class RoughtimeClientTest {
+public final class RoughtimeClientTest {
 
     // Google Roughtime server long-term public key
     private static final byte[] GOOGLE_PUBKEY = hexToBytes(
