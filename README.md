@@ -64,6 +64,7 @@ Add Jitpack in your root build.gradle at the end of repositories:
 ### Roughtime servers
 
 App is hooked to `roughtime.cloudflare.com:2002`, second known running server is `roughtime.int08h.com:2002`.
+PublicKeys:
 
 * roughtime.cloudflare.com:2002
   * `Base64 = gD63hSj3ScS+wuOeGrubXlq35N1c5Lby/S+T7MNTjxo=`
@@ -74,6 +75,7 @@ App is hooked to `roughtime.cloudflare.com:2002`, second known running server is
 
 ### Known issues
 Some requests fail to get response in 5 sec. timeframe. Extending it doesn't seem to solve problem - might be a server issue as it seems to be random and results in Timeout.
+
 ### Roadmap for this library (help wanted)
 * Separate Rx extension to separate library module
 * Retry mechanism
